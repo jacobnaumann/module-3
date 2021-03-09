@@ -18,6 +18,7 @@ body {
   /* Restaurant name */
   font-family: "Cinzel", serif;
   color: #ffffff;
+  text-shadow: 4px 4px 10px #c77b7b;
   font-size: 1.5em;
   font-weight: bold;
   margin-top: 0;
@@ -38,27 +39,26 @@ body {
 
 /* MAIN CONTENT */
 h3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 .menu-section {
-    background-color: #c77b7b;
-    padding:15px, 30px, 15px, 30px;
+  background-color: #c77b7b;
+  margin: 20px;
 }
 p {
-    overflow: hidden;
-    margin: 15px;
-  }
-.container .menu-section {
-  font-size: 0.8em;  
-  height: 850px;
-  overflow: auto;
-  box-shadow: 0 0 50px #000000;
+  overflow: hidden;
+  margin: 15px;
 }
-
-
+.container .menu-section {
+  font-size: 0.7em;
+  height: 800px;
+  /* width: auto; */
+  overflow: auto;
+  box-shadow: 0 0 30px #000000;
+}
 a {
-    color: #ffffff;
-  }
+  color: #ffffff;
+}
 /* END MAIN CONTENT */
 
 /* RESPONSIVE - MEDIUM SIZE ONLY */
