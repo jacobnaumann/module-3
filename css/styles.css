@@ -37,17 +37,25 @@ body {
 /* END HEADER */
 
 /* MAIN CONTENT */
-.container .menu-section {
-  font-size: 0.8em;
-  background-color: #c77b7b;
-  margin: 0 auto 15px;
-  height: 650px;
-  overflow: auto;
+h3 {
+    font-weight: bold;
 }
-/* .container .menu-title {
-  background-color: #c77b7b;
-  font-weight: bold;
-} */
+.menu-section {
+    background-color: #c77b7b;
+    padding:15px, 30px, 15px, 30px;
+}
+p {
+    overflow: hidden;
+    margin: 15px;
+  }
+.container .menu-section {
+  font-size: 0.8em;  
+  height: 850px;
+  overflow: auto;
+  box-shadow: 0 0 50px #000000;
+}
+
+
 a {
     color: #ffffff;
   }
