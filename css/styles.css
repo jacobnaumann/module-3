@@ -1,0 +1,75 @@
+body {
+  font-family: "Cinzel", serif;
+  font-size: 26px;
+  padding-top: 0;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #000000;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 0;
+}
+.navbar-brand {
+  font-size: 18px;
+}
+.navbar-brand h1 {
+  /* Restaurant name */
+  font-family: "Cinzel", serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+#nav-list {
+  background-color: #aca1a1;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+.container p {
+  background-color: #c77b7b;
+  font-size: 0.8em;
+}
+/* END MAIN CONTENT */
+
+/* RESPONSIVE - MEDIUM SIZE ONLY */
+@media (min-width: 992px) /* and (max-width: 1199px) */ {
+  /* HEADER */
+  /* END HEADER */
+
+  /* HOME PAGE */
+  /* END HOME PAGE */
+}
+
+/* RESPONSIVE - SMALL SIZE ONLY */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* HOME PAGE */
+  /* END HOME PAGE */
+}
+
+/* RESPONSIVE - EXTRA SMALL SIZE ONLY */
+@media (max-width: 767px) {
+  /* HEADER  */
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1em;
+  }
+  /* END HEADER */
+
+  /* HOME PAGE */
+  /* END HOME PAGE */
+
+  /* FOOTER */
+  /* END FOOTER */
+}
