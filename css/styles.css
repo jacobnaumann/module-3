@@ -1,4 +1,5 @@
 body {
+  background-color: #000000;
   font-family: "Cinzel", serif;
   font-size: 26px;
   padding-top: 0;
@@ -38,11 +39,14 @@ body {
 /* END HEADER */
 
 /* MAIN CONTENT */
+h1 {
+  color: #fa2929;
+}
 h3 {
   font-weight: bold;
 }
 .menu-section {
-  background-color: #c77b7b;
+  background-color: #000000;
   margin: 20px;
 }
 p {
@@ -50,10 +54,11 @@ p {
   margin: 15px;
 }
 .container .menu-section {
+  color: #fa2929;
   font-size: 0.7em;
   height: 800px;
   overflow: auto;
-  box-shadow: 0 0 30px #000000;
+  box-shadow: 0 0 30px #fc1b1b;
 }
 a {
   color: #ffffff;
