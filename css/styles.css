@@ -37,10 +37,20 @@ body {
 /* END HEADER */
 
 /* MAIN CONTENT */
-.container p {
-  background-color: #c77b7b;
+.container .menu-section {
   font-size: 0.8em;
+  background-color: #c77b7b;
+  margin: 0 auto 15px;
+  height: 650px;
+  overflow: auto;
 }
+/* .container .menu-title {
+  background-color: #c77b7b;
+  font-weight: bold;
+} */
+a {
+    color: #ffffff;
+  }
 /* END MAIN CONTENT */
 
 /* RESPONSIVE - MEDIUM SIZE ONLY */
@@ -49,6 +59,9 @@ body {
   /* END HEADER */
 
   /* HOME PAGE */
+  /* .container .menu-section {
+    font-size: 0.8em;
+  } */
   /* END HOME PAGE */
 }
 
